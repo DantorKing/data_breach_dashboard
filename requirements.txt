@@ -2,3 +2,4 @@ streamlit
 pandas
 plotly
 openpyxl
+statsmodels==0.14.4
