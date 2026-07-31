@@ -10,7 +10,9 @@ st.set_page_config(page_title="Data Breaches", page_icon="💽",
 # Register your new page below
 # ─────────────────────────────────────────────────────────────────────────────
 pg = st.navigation([
-    st.Page("pages/00_home.py",
+    st.Page("pages/001_introduction.py",
+            title="Introduction",   icon="📘"),
+    st.Page("pages/00_breaches.py",
             title="Data Breaches",   icon="🌐"),
     st.Page("pages/01_sector.py",
             title="Sector Analysis",   icon="🏭"),
